@@ -1,0 +1,16 @@
+{
+  "name": "medlingo-dashboard-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "@azure/storage-blob": "^12.24.0"
+  }
+}
